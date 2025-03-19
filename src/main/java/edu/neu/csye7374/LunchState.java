@@ -11,9 +11,9 @@ public class LunchState implements RestaurantState {
 
 	public LunchState() {
 		lunchMenu = new ArrayList<>();
-		lunchMenu.add(new MenuItem(1, "Hot Dog", 1.99));
-		lunchMenu.add(new MenuItem(2, "Salad", 2.99));
-		lunchMenu.add(new MenuItem(3, "Hamburger", 3.99));
+		lunchMenu.add(new MenuItem(1, "hot dog", 1.99));
+		lunchMenu.add(new MenuItem(2, "salad", 2.99));
+		lunchMenu.add(new MenuItem(3, "hamburger", 3.99));
 	}
 
 	@Override

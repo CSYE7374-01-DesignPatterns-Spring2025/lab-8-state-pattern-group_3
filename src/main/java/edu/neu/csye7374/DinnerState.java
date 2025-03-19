@@ -11,9 +11,9 @@ public class DinnerState implements RestaurantState {
 
 	public DinnerState() {
 		dinnerMenu = new ArrayList<>();
-		dinnerMenu.add(new MenuItem(1, "Soup", 11.99));
-		dinnerMenu.add(new MenuItem(2, "Salad", 12.99));
-		dinnerMenu.add(new MenuItem(3, "Steak", 13.99));
+		dinnerMenu.add(new MenuItem(1, "soup", 11.99));
+		dinnerMenu.add(new MenuItem(2, "salad", 12.99));
+		dinnerMenu.add(new MenuItem(3, "steak", 13.99));
 	}
 
 	@Override
